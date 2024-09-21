@@ -1,0 +1,83 @@
+:root {
+  --red: #d01c28;
+  --black: #2e2e2e;
+  --gray: #808080;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header-content {
+  height: 72px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 76px;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.navigation a {
+  color: var(--black);
+  text-transform: uppercase;
+}
+.login button {
+  background-color: var(--red);
+}
+.all-hero-elements{
+  padding: 75px 0;
+  max-width: 1125px;
+  margin: 0 auto;
+  height: calc(100vh -72px);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content{
+  max-width: 595px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  color: var(--gray);
+}
+.hero-content h1, .hero-text{
+  text-transform: uppercase;
+}
+.hero-content h1{
+  font-size: 108px;
+  line-height: 102px;
+  color: #000;
+  text-shadow: 0px 1px 4px #000000bd;
+}
+.hero-text{
+  max-width: 404px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+.hero-btn button{
+  background-color: var(--red);
+  font-size: 24px;
+}
+.hero-btn .second-btn{
+  border: 1px solid var(--black);
+  background-color: transparent;
+  color: var(--gray);
+}
+.brand-info, .brand-img{
+  display: flex;
+  gap: 16px;
+}
+.brand-info{
+  flex-direction: column;
+}
+.hero-image{
+  width: 530px;
+}
